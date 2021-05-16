@@ -5,7 +5,6 @@ import(
 )
 
 func main() {
-	fmt.Println("Hola mundo")
 	//var arr3 [4]int //no sé por qué esto no jala
 	arr3 := []int{0,0,0,0}
 	fmt.Println("comb de 3:", getCombinations(3, arr3))
