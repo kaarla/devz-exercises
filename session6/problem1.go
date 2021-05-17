@@ -5,9 +5,9 @@ import(
 )
 
 func main() {
-	//var arr3 [4]int //no sé por qué esto no jala
 	fmt.Println(getCombinations(3))
 	fmt.Println(getCombinations(4))
+	fmt.Println(getCombinations(5))
 }
 
 func getCombinationsQuantity(n int, memo []int) int{
